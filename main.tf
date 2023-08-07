@@ -22,7 +22,7 @@ module "ec2_instance" {
 
 
   ami                    = "ami-0f08721e5f546d256"
-  instance_type          = "t3a.micro"
+  instance_type          = "t3a.medium"
   key_name               = "Key_Keycloak"
   monitoring             = true
   vpc_security_group_ids = ["sg-0f6a68253d49d98ae"]
