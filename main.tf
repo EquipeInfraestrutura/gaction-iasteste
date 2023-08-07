@@ -10,7 +10,7 @@ terraform {
 
 # Configure the AWS Provider
 provider "aws" {
-  region = "eu-east-2"
+  region = "us-east-2"
 }
 
 module "ec2_instance" {
